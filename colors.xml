@@ -1,0 +1,5 @@
+<resources>
+    <color name="navy">#101A3A</color><color name="purple">#6C4CF1</color><color name="cyan">#00C2FF</color>
+    <color name="pink">#FF4F9A</color><color name="green">#18C889</color><color name="bg">#F5F7FF</color>
+    <color name="text">#17213B</color><color name="muted">#69738C</color><color name="white">#FFFFFF</color>
+</resources>

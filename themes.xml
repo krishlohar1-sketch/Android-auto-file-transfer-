@@ -1,0 +1,7 @@
+<resources>
+<style name="Theme.AutoFlashTransfer" parent="android:style/Theme.Material.Light.NoActionBar">
+    <item name="android:fontFamily">sans</item><item name="android:colorAccent">#6C4CF1</item>
+    <item name="android:navigationBarColor">#101A3A</item><item name="android:statusBarColor">#101A3A</item>
+    <item name="android:windowLightStatusBar">false</item>
+</style>
+</resources>
