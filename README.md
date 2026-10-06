@@ -1,16 +1,6 @@
-# Auto Flash Transfer
+# Android Auto File Transfer
+GitHub Pages-ready Progressive Web App (PWA).
 
-A colourful, beginner-friendly Android file transfer app UI with local device-to-device transfer architecture.
+Upload all files in this folder to a GitHub repository and enable GitHub Pages. Open the Pages URL in Chrome on Android. The app can then be installed when Chrome offers Install/Add to Home screen.
 
-### UI highlights
-- Smart colourful home screen
-- Clear Send / Receive actions
-- Simple 3-step explanation for new users
-- Modern app icon
-- About screen with app details and developer contact
-
-**Developed by Krish Lohar**  
-**Contact: 9635465352**
-
-### Important
-Actual transfer speed depends on the phones, Wi-Fi hardware, Android version and network conditions. The app does not bypass Android security permissions or Wi-Fi restrictions.
+Developer: Krish Lohar | 9635465352

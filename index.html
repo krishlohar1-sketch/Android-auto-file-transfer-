@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#5b2cff"><meta name="description" content="Fast, simple and user-friendly file transfer app for Android devices."><link rel="manifest" href="manifest.json"><link rel="icon" href="icon.svg"><link rel="stylesheet" href="style.css"><title>Android Auto File Transfer</title></head><body>
+<header class="top"><div class="brand"><div class="logo">↔</div><div><b>Android Auto</b><span>File Transfer</span></div></div><button id="shareApp" class="iconBtn" aria-label="Share app">↗</button></header>
+<main>
+<section class="hero"><div class="heroGlow"></div><div class="heroText"><p class="eyebrow">SMART • SIMPLE • FAST</p><h1>Move files<br><strong>the easy way.</strong></h1><p>Choose files, share them quickly, and keep everything simple.</p></div><div class="heroArt">↗<br><span>↙</span></div></section>
+<section class="actions"><button id="sendBtn" class="card send"><div class="cardIcon">↑</div><div><h2>Send Files</h2><p>Choose photos, videos, documents & more</p></div><b>›</b></button><button id="receiveBtn" class="card receive"><div class="cardIcon">↓</div><div><h2>Receive Files</h2><p>Select files received on this device</p></div><b>›</b></button></section>
+<section class="how"><h2>How it works</h2><div class="steps"><div><i>1</i><b>Select</b><span>Choose files</span></div><div><i>2</i><b>Share</b><span>Use Android sharing</span></div><div><i>3</i><b>Done</b><span>Transfer complete</span></div></div></section>
+<section class="tools"><button id="installBtn" class="tool" hidden>＋ Install App</button><button id="aboutBtn" class="tool">ⓘ About</button><button id="shareBtn" class="tool">↗ Share App</button></section>
+<input id="fileInput" type="file" multiple hidden><input id="receiveInput" type="file" multiple hidden>
+<section id="status" class="status" hidden><div id="statusTitle"></div><div id="fileList"></div></section>
+</main>
+<footer>Android Auto File Transfer</footer>
+<div id="aboutModal" class="modal" hidden><div class="sheet"><button id="closeAbout" class="close">×</button><div class="modalLogo">↔</div><h2>About this app</h2><p>Android Auto File Transfer is a simple, colourful and user-friendly PWA for selecting and sharing files on Android devices.</p><p><b>Developed by Krish Lohar</b><br>Contact: 9635465352</p><p class="note">For direct device-to-device transfer, both devices need a compatible sharing/connection method. This web app uses Android's available sharing features.</p></div></div>
+<script src="script.js"></script></body></html>
