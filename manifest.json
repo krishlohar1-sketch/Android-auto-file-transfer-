@@ -1,1 +1,24 @@
-{"name":"Android Auto File Transfer","short_name":"Auto File Transfer","start_url":"./","display":"standalone","background_color":"#f5f6fb","theme_color":"#5b2cff","description":"Fast and simple file sharing app for Android.","icons":[{"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},{"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}
+{
+  "name": "Android Auto File Transfer",
+  "short_name": "Auto Transfer",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b1020",
+  "theme_color": "#10172d",
+  "description": "Simple peer-to-peer file sharing between phones.",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
