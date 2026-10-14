@@ -19,7 +19,7 @@ A mobile-first progressive web app with a colorful custom logo, glass-style inte
 ## Important honest limitations
 - This is a browser/PWA, not a native Android app. It cannot automatically turn Wi-Fi, hotspot, Bluetooth, or permissions on/off.
 - PeerJS uses a public signaling service and WebRTC; networks/firewalls may prevent a connection. Same Wi-Fi can help.
-- QR displays the sender ID, but automatic QR scanning is not implemented; receiver must enter/paste the ID.
+- QR scanning is included where the browser supports BarcodeDetector and camera permission is granted; unsupported browsers must enter/paste the ID manually. The sender QR contains its PeerJS ID.
 - PeerJS and QR libraries load from public CDNs, so first use needs internet. Cached page shell does not enable offline pairing.
 - Large files can be slow or run into browser memory limits. Start with small files.
-- The package has not been verified with a live two-physical-phone test here. Test with a small non-sensitive file before relying on it.
+- The package has not been verified with a live two-physical-phone test here. Test with a small non-sensitive file before relying on it. Language switching translates key buttons only; it is not yet a complete translation of every screen. Ratings are local demo feedback and are not sent to a server.
